@@ -15,6 +15,10 @@ import java.util.UUID;
 @Slf4j
 @RestController
 @RequestMapping("upload")
+/**
+ *  @author yif
+ *  @since 2023-02-08
+ */
 public class UploadController {
 
     @PostMapping("blog")
